@@ -4,7 +4,7 @@ m = 12;
 % Time dimension
 n = 50;
 
-% Calculate matrix, matrix size (50x12) x (500x12)
+% Calculate matrix, matrix size (50x12) x (50x12)
 corrmat = calculate_covmat(n, m);
 
 % set parameters
