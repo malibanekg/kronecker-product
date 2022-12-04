@@ -11,4 +11,5 @@ corrmat = calculate_covmat(n, m);
 lambdaL = 10;
 lambdaS = 0.2;
 
+% int=50?
 [T,S,kron_mat,err_full] = comp_kron_Robust_rr(corrmat, m, 50, lambdaL, lambdaS, 0, 'SVT');
